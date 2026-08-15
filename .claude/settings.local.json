@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"/c/Users/asus/OneDrive/Desktop/gerekli bilgiler\" -maxdepth 4 | head -100)",
+      "Bash(cp '__TRACKED_VAR__/AUDİ 2023 A4 TDİ OTOMATİK GÜNLÜK 4500 TL/AUDİ1.jpeg' '/c/Users/asus/OneDrive/Desktop/A & G RENT A CAR/public/vehicles/audi-a4.jpeg')",
+      "Bash(cp '__TRACKED_VAR__/CİTRÖEN C ELYSSE DİZEL MANUEL 2020 1500TL/ELYSE1.jpeg' '/c/Users/asus/OneDrive/Desktop/A & G RENT A CAR/public/vehicles/citroen-c-elysee.jpeg')",
+      "Bash(cp '__TRACKED_VAR__/FİAT EGEA BENZİNLİ MANUEL 1500 TL/EGEA2.jpeg' '/c/Users/asus/OneDrive/Desktop/A & G RENT A CAR/public/vehicles/fiat-egea.jpeg')",
+      "Bash(cp '__TRACKED_VAR__/HAFİF TİCARİ ARAÇLAR 1500 TL/HAFİFTİCARİ1.jpeg' '/c/Users/asus/OneDrive/Desktop/A & G RENT A CAR/public/vehicles/hafif-ticari.jpeg')",
+      "Bash(cp '__TRACKED_VAR__/HYUNDAİ İ20 23 MODEL BENZİNLİ OTOMATİK 1750 TL/İ20 1.jpeg' '/c/Users/asus/OneDrive/Desktop/A & G RENT A CAR/public/vehicles/hyundai-i20.jpeg')"
+    ]
+  }
+}
