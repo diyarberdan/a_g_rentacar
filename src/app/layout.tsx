@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "A&G OTO KİRALAMA | Güvenilir Araç Kiralama Hizmeti",
   description:
     "A&G OTO KİRALAMA ile bulunduğunuz yere, hava alanına ve otogara teslimat! Bakımlı, düşük kilometreli araçlarla güvenilir kiralama. 7/24 WhatsApp: +90 532 507 00 35",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
