@@ -8,7 +8,8 @@
       "Bash(cp '__TRACKED_VAR__/HAFİF TİCARİ ARAÇLAR 1500 TL/HAFİFTİCARİ1.jpeg' '/c/Users/asus/OneDrive/Desktop/A & G RENT A CAR/public/vehicles/hafif-ticari.jpeg')",
       "Bash(cp '__TRACKED_VAR__/HYUNDAİ İ20 23 MODEL BENZİNLİ OTOMATİK 1750 TL/İ20 1.jpeg' '/c/Users/asus/OneDrive/Desktop/A & G RENT A CAR/public/vehicles/hyundai-i20.jpeg')",
       "Bash(ls -la \"/c/Users/asus/OneDrive/Desktop/A & G RENT A CAR/public/favicon.png\" 2>&1)",
-      "Bash(ls -la \"/c/Users/asus/OneDrive/Desktop/a_g_rentacar/public\" 2>&1 *)"
+      "Bash(ls -la \"/c/Users/asus/OneDrive/Desktop/a_g_rentacar/public\" 2>&1 *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000 --max-time 5)"
     ]
   }
 }
