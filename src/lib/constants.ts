@@ -3,6 +3,12 @@ export const COMPANY_NAME = "A&G OTO KİRALAMA";
 export const ADDRESS =
   "Subayevleri Mah. Fahrettin Altay Cad. Güzin Sokak No:48/B, Keçiören/Ankara";
 
+// 39°57'53.0"N 32°52'14.1"E
+export const LATITUDE = 39.964722;
+export const LONGITUDE = 32.870583;
+export const GOOGLE_MAPS_LINK = `https://www.google.com/maps/search/?api=1&query=${LATITUDE},${LONGITUDE}`;
+export const GOOGLE_MAPS_EMBED_SRC = `https://www.google.com/maps?q=${LATITUDE},${LONGITUDE}&output=embed`;
+
 export const PHONE_DISPLAY = "+90 532 507 00 35";
 export const PHONE_TEL = "+905325070035";
 export const WHATSAPP_NUMBER = "905325070035";

@@ -1,14 +1,14 @@
-import { Clock3, MapPin, MessageCircle, Phone } from "lucide-react";
+import { Clock3, MapPin, MessageCircle, Navigation, Phone } from "lucide-react";
 import {
   ADDRESS,
+  GOOGLE_MAPS_EMBED_SRC,
+  GOOGLE_MAPS_LINK,
   PHONE_DISPLAY,
   PHONE_TEL,
   WHATSAPP_LINK_GENERAL,
 } from "@/lib/constants";
 
 export default function Contact() {
-  const mapSrc = `https://www.google.com/maps?q=${encodeURIComponent(ADDRESS)}&output=embed`;
-
   return (
     <section id="iletisim" className="border-t border-border bg-surface py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -36,6 +36,15 @@ export default function Contact() {
                   Adres
                 </h3>
                 <p className="mt-1 text-sm leading-relaxed text-muted">{ADDRESS}</p>
+                <a
+                  href={GOOGLE_MAPS_LINK}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:underline"
+                >
+                  <Navigation size={14} />
+                  Yol Tarifi Al
+                </a>
               </div>
             </div>
 
@@ -99,7 +108,7 @@ export default function Contact() {
           <div className="min-h-[320px] overflow-hidden rounded-2xl border border-border lg:min-h-full">
             <iframe
               title="A&G Oto Kiralama Konum"
-              src={mapSrc}
+              src={GOOGLE_MAPS_EMBED_SRC}
               className="h-full w-full min-h-[320px]"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
