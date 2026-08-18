@@ -1,6 +1,7 @@
 export const COMPANY_NAME = "A&G OTO KİRALAMA";
 
-export const ADDRESS = "FAHRETTİN ALTAY CAD. GÜZİN SOKAK 48/B SUBAYEVLERİ / KEÇİÖREN";
+export const ADDRESS =
+  "Subayevleri Mah. Fahrettin Altay Cad. Güzin Sokak No:48/B, Keçiören/Ankara";
 
 export const PHONE_DISPLAY = "+90 532 507 00 35";
 export const PHONE_TEL = "+905325070035";
