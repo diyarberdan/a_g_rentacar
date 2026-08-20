@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "A&G OTO KİRALAMA | Güvenilir Araç Kiralama Hizmeti",
+  title: "A&G Oto Kiralama | Ankara Rent A Car & Araç Kiralama",
   description:
     "A&G Oto Kiralama Ankara: Bakımlı ve düşük kilometreli araçlarla güvenilir rent a car hizmeti. Esenboğa Havalimanı, AŞTİ, YHT Garı ile Keçiören, Çankaya, Yenimahalle, Eryaman, İncek ve tüm Ankara bölgelerine 7/24 araç teslimatı.",
   verification: {
