@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "A&G OTO KİRALAMA | Güvenilir Araç Kiralama Hizmeti",
   description:
-    "A&G OTO KİRALAMA ile bulunduğunuz yere, hava alanına ve otogara teslimat! Bakımlı, düşük kilometreli araçlarla güvenilir kiralama. 7/24 WhatsApp: +90 532 507 00 35",
+    "A&G Oto Kiralama Ankara: Bakımlı ve düşük kilometreli araçlarla güvenilir rent a car hizmeti. Esenboğa Havalimanı, AŞTİ, YHT Garı ile Keçiören, Çankaya, Yenimahalle, Eryaman, İncek ve tüm Ankara bölgelerine 7/24 araç teslimatı.",
   verification: {
     google: "zuVi_W5KdJ2B-EeFJXTvOsgF1fCNoMFpq6w0YItr5Rw",
   },

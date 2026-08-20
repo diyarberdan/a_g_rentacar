@@ -7,6 +7,7 @@ import { COMPANY_NAME, PHONE_DISPLAY, PHONE_TEL, WHATSAPP_LINK_GENERAL } from "@
 const NAV_LINKS = [
   { href: "#hakkimizda", label: "Hakkımızda" },
   { href: "#hizmetler", label: "Hizmetler" },
+  { href: "#teslimat-noktalari", label: "Bölgelerimiz" },
   { href: "#filo", label: "Araç Filomuz" },
   { href: "#iletisim", label: "İletişim" },
 ];
